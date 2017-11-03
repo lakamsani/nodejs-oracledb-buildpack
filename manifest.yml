@@ -2,7 +2,7 @@
 language: nodejs
 default_versions:
 - name: node
-  version: 4.8.3
+  version: 8.8.0
 exclude_files:
 - ".git/"
 - ".gitignore"
@@ -18,67 +18,15 @@ url_to_dependency_map:
   name: node
   version: "$1"
 dependency_deprecation_dates:
-- match: 4\.\d+\.\d+
-  version_line: '4'
+- match: 8\.\d+\.\d+
+  version_line: '8'
   name: node
-  date: 2018-04-01
-  link: https://github.com/nodejs/LTS
-- match: 6\.\d+\.\d+
-  version_line: '6'
-  name: node
-  date: 2019-04-18
-  link: https://github.com/nodejs/LTS
-- match: 7\.\d+\.\d+
-  version_line: '7'
-  name: node
-  date: 2017-06-30
+  date: 2019-12-31
   link: https://github.com/nodejs/LTS
 dependencies:
 - name: node
-  version: 6.10.2
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.10.2-linux-x64-9f48b587.tgz
-  md5: 9f48b58738d33e263789c30f9d1a044b
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 4.8.2
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.2-linux-x64-09d53abc.tgz
-  md5: 09d53abca4f08cf63b9eb88b7175266f
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 7.9.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.9.0-linux-x64-5d69c9a3.tgz
-  md5: 5d69c9a326c4eb6f83bbc1d8993b4fc1
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 4.8.3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.3-linux-x64-0622641b.tgz
-  md5: 0622641b64386fdfcaa82da4987a1105
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 6.10.3
-  uri: https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.xz
-  md5: 084edbf2b4c2eb1c5620c283c377ed87
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 6.9.4
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.9.4-linux-x64-34d4554a.tgz
-  md5: 374ad90048055f1d11bc2ffb70ce08a7
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 7.10.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.10.0-linux-x64-a608be81.tgz
-  md5: a608be8101ca3523405f37fa4ace16bc
-  cf_stacks:
-  - cflinuxfs2
-- name: node
-  version: 8.0.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-8.0.0-linux-x64-ade5a8e5.tgz
-  md5: ade5a8e572f779a2fa9e8cc1d0e873b7
+  version: 8.8.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-8.8.0-linux-x64-7453aaed.tgz
+  md5: 7453aaed16f33a31b8fa5d6ffd697adf
   cf_stacks:
   - cflinuxfs2
